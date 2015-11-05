@@ -23,5 +23,5 @@ function isValid(numberString){
 
 
 console.assert(isValid("4408 0412 3456 7893") === false);
-console.assert(isValid("5000 0000 0000 0000") === false);
+console.assert(isValid("5000 0000 0000 0000") === true);
 console.assert(isValid("4408 0412 3456 2193") === true);
