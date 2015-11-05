@@ -2,7 +2,7 @@ function isValid(numberString){
   var numberArray = numberString.replace(/ /g, "").split('');
 
   for(x = 0; x < numberArray.length; x++){
-    if(x%2 === 0)
+    if(x % 2 === 0)
       numberArray[x] = (Number(numberArray[x]) * 2);
     else
       numberArray[x] = Number(numberArray[x]);
